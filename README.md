@@ -6,4 +6,4 @@ El usuario debe ingresar: nombre, peso y edad para que se le brinden los resulta
 
 Fuente información: https://www.cdc.gov/healthyweight/spanish/assessing/bmi/adult_bmi/index.html#IMC
 
-Languaje used: Python 🐍
+Language used: Python 🐍
