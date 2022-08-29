@@ -1,8 +1,8 @@
 user_name=input('\tBienvenido a la calculadora de IMC (Indice de Masa Corporal). \n\nPor favor ingresa tu nombre: ')
 weight=int(input('¿Cuánto pesas?: '))
 height= float(input('¿Cuánto  mides?: '))
-print('\tCalculando... please wait')
-print('\tCalculando... please wait')
+wait_msg = 'Calculando... por favor espere'
+print(wait_msg*2)
 imc = round(weight/(height**2),2)
 print(f"{user_name}:\n>Tu peso es: {weight}\n>Tu estatura es: {height}\n>Tu IMC es: {imc}")
 if imc<18.5:
